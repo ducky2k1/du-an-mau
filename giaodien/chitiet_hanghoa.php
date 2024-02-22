@@ -7,7 +7,7 @@
         </div>
         <div class="productt flex " style="">
             <div class="w-full border-[1px] flex items-center justify-center" style="">
-                <img src="./hanghoa/<?=$ds['hinh']?>" alt="" style="width:400px;height:230px;">
+                <img src="./hanghoa/img/<?=$ds['hinh']?>" alt="" style="width:400px;height:230px;">
 
                 <ul class="p-[20px] ml-[100px]">
                     <li class="text-[16px] font-[500] my-[20px]">Mã hàng hóa: <?=$ds['ma_hh']?> - <?=$ds['ten_loai'] ?>  </li>

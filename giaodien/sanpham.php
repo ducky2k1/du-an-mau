@@ -9,7 +9,7 @@
                     <div class="boxsp " style="margin: 5px 5px;">
                         <a href="./index.php?act=ct&id=<?php echo $ds['ma_hh'] ?>">
                             <div class="img flex justify-center">
-                                    <img src="<?php extract($ds); echo "./hanghoa/$hinh"?>" alt="" style="width:150px;height:150px;">
+                                    <img src="<?php extract($ds); echo "./hanghoa/img/$hinh"?>" alt="" style="width:150px;height:150px;">
                             </div>
                             <p class="mt-[10px] mb-[5px] flex justify-center items-center"><?php extract($ds); echo $don_gia?> $</p>
                             <a href="./index.php?act=ct&id=<?php echo $ds['ma_hh'] ?>" class="flex justify-center items-center text-[black] font-semibold">

@@ -34,8 +34,6 @@
                                     $data = pdo_query_one($sql);
                                     if ($data) {
                                         if ($password == $data['password']) {
-                                            // $_SESSION['login'] = $data['role'];
-                                            // add_cookie('duc',serialize($data),30);
                                             $_SESSION['login'] = $data['role'];
                                             $_SESSION['email'] = $data['email'];
                                             header('location:index.php');

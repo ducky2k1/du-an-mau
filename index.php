@@ -216,7 +216,7 @@
                             <?php foreach($show as $sh){
                             ?>
                             <div class="one border-[1px] w-full p-[10px]">
-                                <img src="<?php extract($sh); echo "./hanghoa/$hinh" ?>" alt="" width="20px" height="20px">
+                                <img src="<?php extract($sh); echo "./hanghoa/img/$hinh" ?>" alt="" width="20px" height="20px">
                                 <a href="./index.php?act=ct&id=<?php echo $sh['ma_hh'] ?>" class="ml-[15px] text-gray-800 hover:text-red-500"><?php extract($sh); echo $ten_hh ?></a>
                             </div>
                             <?php

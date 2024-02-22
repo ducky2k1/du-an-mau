@@ -125,7 +125,7 @@ if (isset($_GET['act'])) {
             require_once "./update.php";
             break;
         case 'tk':
-            $sql="SELECT l.ma_loai, l.ten loai  from hang_hoa h join loai l  on h.ma_loai=l.ma_loai "
+                $sql="SELECT l.ma_loai, l.ten loai  from hang_hoa h join loai l  on h.ma_loai=l.ma_loai ";
                 $tk = pdo_query($sql);
                 require_once "../thongke/list.php";
                 break;
@@ -140,16 +140,6 @@ if (isset($_GET['act'])) {
             require_once "./container.php";
             break;
     }
-    // switch ($act){
-    //     case 'loai':
-
-        
-    //         //hiển thị
-            
-    //         $ds_loai = loai_selectAll();
-    //         require_once "../../loai/danhsach_loaihang.php";
-    //         break;
-    // }
 } else {
     require_once "./container.php";
 }

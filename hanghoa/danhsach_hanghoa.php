@@ -124,7 +124,7 @@
                                 <td align="center"><?php extract($ds); echo $ten_hh?></td>
                                 <td align="center"><?php extract($ds); echo $don_gia?></td>
                                 <td align="center"><?php extract($ds); echo $giam_gia?></td>
-                                <td align="center"><img src="<?php extract($ds); echo $hinh?>" alt="" style="width:100px; height:100px;"></td>
+                                <td align="center"><img src="./img/<?php extract($ds); echo $hinh?>" alt="" style="width:100px; height:100px;"></td>
                                 <td align="center"><?php extract($ds); echo $ngay_nhap?></td>
                                 <td align="center"><?php extract($ds); echo $mo_ta?></td>
                                 <td align="center"><?php extract($ds); echo $dac_biet?></td>
